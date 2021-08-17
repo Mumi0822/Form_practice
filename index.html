@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <dl>
+        <dt> <label for="name">名前</label></dt>
+        <dd><input type="text" name="name" id="name" value="お名前" onchange="myfunc.myName()"></dd>
+        <dt><label for="email">Email</label></dt>
+        <dd><input type="email" name= "email" id="email"onchange="myfunc.myName()"></dd>
+        <dt><input type="submit" name="register" id="register" value="登録"  onclick="myfunc.myForm()"disabled></dt>
+    </dl>
+    
+    
+ 
+    <script src = practice.js></script>
+</body>
+</html>
